@@ -8,10 +8,8 @@ public class TcpIpClient5 {
         Screen screen = new Screen();
 
         try{
-            String serverIp = "172.17.207.148";
-            //내꺼 172.18.147.227
-            //수민이꺼 172.17.207.148
-            //현재오빠 172.17.219.17
+            String serverIp = "user IP";
+            
             Socket socket = new Socket(serverIp, 7777);
             System.out.println("서버에 연결되었습니다.");
             Sender sender = new Sender(socket);
